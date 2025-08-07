@@ -1,0 +1,44 @@
+body {
+  padding: none;
+  margin: none;
+  background: linear-gradient(135deg,	#E7C6C3,	#D7A79A);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav .left {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .left a, nav .right a {
+  margin: 0 50px;
+  text-decoration: none;
+  color: #6B5954;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  transition: color 0.35s;
+}
+
+nav .left a:hover, nav .right a:hover {
+  color: red;
+}
