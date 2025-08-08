@@ -1,9 +1,19 @@
-body {
+html, body {
   padding: none;
   margin: none;
+}
+
+body {
   background: linear-gradient(135deg,	#E7C6C3,	#D7A79A);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (min-width: 768px) {
+  html, body {
+    height: 100dvh;
+    overflow: hidden;
+  }
 }
 
 nav {
@@ -41,4 +51,8 @@ nav .left a, nav .right a {
 
 nav .left a:hover, nav .right a:hover {
   color: red;
+}
+
+.main-image {
+  width: 200px;
 }
